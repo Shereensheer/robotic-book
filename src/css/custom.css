@@ -1,0 +1,44 @@
+:root {
+  /* Neon Futuristic Primary Palette */
+  --ifm-color-primary: #ffdd59;          /* bright neon yellow */
+  --ifm-color-primary-dark: #f0c000;     /* darker neon yellow */
+  --ifm-color-primary-darker: #d4aa00;   /* even darker */
+  --ifm-color-primary-darkest: #aa8800;  /* deepest shade */
+  --ifm-color-primary-light: #fff78a;    /* light neon yellow */
+  --ifm-color-primary-lighter: #fffbb3;  /* lighter shade */
+  --ifm-color-primary-lightest: #fffde6; /* very light */
+  
+  /* Accent Palette */
+  --ifm-color-secondary: #00ffe0;        /* neon cyan */
+  --ifm-color-success: #4caf50;          
+  --ifm-color-warning: #ff9800;          
+  --ifm-color-error: #f44336;            
+  
+  /* Code styling */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 221, 89, 0.1); /* subtle neon yellow highlight */
+  --ifm-color-background: #f3f6f9;       /* light neutral background */
+  --ifm-color-background-secondary: #e6e9f0;
+  --ifm-color-text: #0d1b2a;             /* dark text for contrast */
+}
+
+/* Dark Mode Palette */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff6f61;           /* neon coral on dark */
+  --ifm-color-primary-dark: #ff4b3e;      
+  --ifm-color-primary-darker: #e03a30;    
+  --ifm-color-primary-darkest: #b82b24;   
+  --ifm-color-primary-light: #ff8b76;     
+  --ifm-color-primary-lighter: #ff9d8c;   
+  --ifm-color-primary-lightest: #ffc5b9;  
+
+  --ifm-color-secondary: #00ffe0;         /* neon cyan */
+  --ifm-color-success: #81c784;
+  --ifm-color-warning: #ffb74d;
+  --ifm-color-error: #ef5350;
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 111, 97, 0.15); /* neon coral highlight */
+  --ifm-color-background: #0d1b2a;        /* deep dark blue */
+  --ifm-color-background-secondary: #1b263b;
+  --ifm-color-text: #f0f0f0;              /* light text */
+}

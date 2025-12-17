@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+qdrant-client
+psycopg2-binary
+openai
+anthropic
+python-dotenv
+tiktoken

@@ -1,0 +1,66 @@
+.section {
+  padding: 4rem 2rem;
+  background: #0d1b2a; /* dark base for contrast */
+}
+
+.card {
+  background: linear-gradient(135deg, #1b263b, #415a77, #6a0dad);
+  background-size: 400% 400%;
+  animation: gradientShift 12s ease infinite;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.45);
+}
+
+/* Gradient animation */
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.iconWrapper {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #00ffe0; /* neon cyan icons */
+  text-shadow: 0 0 10px #00ffe0, 0 0 20px #00ffe0, 0 0 30px #00ffe0;
+  transition: transform 0.35s ease;
+}
+
+.card:hover .iconWrapper {
+  transform: scale(1.2);
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #fffd82; /* neon yellow title */
+  margin-bottom: 0.8rem;
+  text-shadow: 0 0 8px #fffd82, 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.col {
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
